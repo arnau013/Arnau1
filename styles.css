@@ -3,29 +3,63 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #fce4ec;
-    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f8b6d9, #f1b6e0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
 }
 
 .container {
     text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #c2185b;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .btn {
-    padding: 10px 20px;
+    padding: 15px 30px;
     font-size: 18px;
-    margin: 10px;
+    margin: 15px;
+    border-radius: 30px;
     border: none;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
 }
 
 .yes {
-    background-color: green;
+    background-color: #4caf50;
     color: white;
 }
 
 .no {
-    background-color: red;
+    background-color: #f44336;
     color: white;
+}
+
+.yes:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+}
+
+.no:hover {
+    background-color: #e53935;
+    transform: translateY(-3px);
+}
+
+#message {
+    font-size: 1.2rem;
+    color: #c2185b;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
