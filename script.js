@@ -22,7 +22,7 @@ noButton.addEventListener("click", function() {
     } else if (clickCount == 4) {
         message.textContent = "Alaaaaaa pobre monito 🐒, arregleu amb un SI";
     } else {
-        message.textContent = "Doncs no me queda altra...";
+        message.textContent = "Doncs no me queda altre...";
         
         // Cambiar el botón "No" por un nuevo botón "Sí"
         noButton.parentNode.removeChild(noButton);  // Elimina el botón "No"
@@ -32,7 +32,7 @@ noButton.addEventListener("click", function() {
         newYesButton.textContent = "Sí";
         newYesButton.classList.add("btn", "yes"); // Añadir las mismas clases para estilo
         newYesButton.addEventListener("click", function() {
-            message.textContent = "Gràcies ratona, tkkkkkkkk!";
+            message.textContent = "Gràcies ratona, tk!";
         });
         
         // Añadir el nuevo botón al contenedor
