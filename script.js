@@ -10,7 +10,7 @@ yesButton.addEventListener("click", function() {
 
 noButton.addEventListener("click", function() {
     clickCount++;
-    size += 10;
+    size += 15;
     yesButton.style.fontSize = size + "px";
     
     if (clickCount == 1) {
@@ -23,6 +23,6 @@ noButton.addEventListener("click", function() {
         message.textContent = "Alaaaaaa pobre monito 🐒, arregleu amb un SI";
     } else {
         message.textContent = "Doncs no me queda otra...";
-        yesButton.style.fontSize = 0.001 + "px";
+        noButton.style.fontSize = 0.001 + "px";
     }
 });
