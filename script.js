@@ -20,9 +20,9 @@ noButton.addEventListener("click", function() {
     } else if (clickCount == 3) {
         message.textContent = "Si prems 'No' una altra vegada, morirà un monito 🐵";
     } else if (clickCount == 4) {
-        message.textContent = "Alaaaaaa pobre monito 🐒, arregleu amb un SI"";
+        message.textContent = "Alaaaaaa pobre monito 🐒, arregleu amb un SI";
     } else {
-        message.textContent = "Doncs no me queda otra...;
+        message.textContent = "Doncs no me queda otra...";
         yesButton.style.fontSize = 0.001 + "px";
     }
 });
