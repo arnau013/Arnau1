@@ -32,7 +32,7 @@ noButton.addEventListener("click", function() {
         newYesButton.textContent = "Sí";
         newYesButton.classList.add("btn", "yes"); // Añadir las mismas clases para estilo
         newYesButton.addEventListener("click", function() {
-            message.textContent = "Gràcies ratona, tk!";
+            message.textContent = "Gràcies ratona, tkkkkkkkk!";
         });
         
         // Añadir el nuevo botón al contenedor
