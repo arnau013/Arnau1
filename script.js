@@ -22,7 +22,20 @@ noButton.addEventListener("click", function() {
     } else if (clickCount == 4) {
         message.textContent = "Alaaaaaa pobre monito 🐒, arregleu amb un SI";
     } else {
-        message.textContent = "Doncs no me queda otra...";
-        noButton.style.fontSize = 0.001 + "px";
+        message.textContent = "Doncs no me queda altra...";
+        
+        // Cambiar el botón "No" por un nuevo botón "Sí"
+        noButton.parentNode.removeChild(noButton);  // Elimina el botón "No"
+        
+        // Crea el nuevo botón "Sí"
+        let newYesButton = document.createElement("button");
+        newYesButton.textContent = "Sí";
+        newYesButton.classList.add("btn", "yes"); // Añadir las mismas clases para estilo
+        newYesButton.addEventListener("click", function() {
+            message.textContent = "Gràcies ratona, tk!";
+        });
+        
+        // Añadir el nuevo botón al contenedor
+        yesButton.parentNode.appendChild(newYesButton);
     }
 });
