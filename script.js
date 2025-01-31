@@ -16,10 +16,10 @@ noButton.addEventListener("click", function() {
     if (clickCount == 1) {
         message.textContent = "Segura?";
     } else if (clickCount == 2) {
-        message.textContent = "Va, dona-li que sí, no siguis dolenta!";
+        message.textContent = "Va, dona-li que sí, no siguis aixi!";
     } else if (clickCount == 3) {
-        message.textContent = "Si prems 'No' una altra vegada, ploraré 😢";
+        message.textContent = "Si prems 'No' una altra vegada, morirà un monito 🐵";
     } else {
-        message.textContent = "Ja estic plorant... ara ho arregles! 😭";
+        message.textContent = "Alaaaaaa pobre monito 🐒, arregleu amb un SI";
     }
 });
